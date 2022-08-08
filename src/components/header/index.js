@@ -1,5 +1,9 @@
 import React from "react";
-import { StyledResponsiveVideoEmbed, PrimaryAction, Notification, SlantedBackground, Heading, RightColumn, LeftColumn, TwoColumn, HeroContainer, OpacityOverlay, Container, StyledHeader } from './styles'
+import {
+  PrimaryAction,
+  SlantedBackground, Heading, LeftColumn, TwoColumn,
+  HeroContainer, OpacityOverlay, Container, StyledHeader
+} from './styles'
 import { NavLink, NavLinks, PrimaryLink } from "../headers/light.js";
 
 export default function Home() {
@@ -36,20 +40,13 @@ export default function Home() {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>We have now launched operations in Europe.</Notification>
             <Heading>
-              <span>Hire the best</span>
+              <span>O caminho mais curto entre</span>
               <br />
-              <SlantedBackground>Marketing Team.</SlantedBackground>
+              <SlantedBackground>seu sonho e seu novo destino no mundo!</SlantedBackground>
             </Heading>
             <PrimaryAction>Read Customer Stories</PrimaryAction>
           </LeftColumn>
-          <RightColumn>
-            <StyledResponsiveVideoEmbed
-              url="//player.vimeo.com/video/374265101?title=0&portrait=0&byline=0&autoplay=0&responsive=1"
-              background="transparent"
-            />
-          </RightColumn>
         </TwoColumn>
       </HeroContainer>
     </Container>
